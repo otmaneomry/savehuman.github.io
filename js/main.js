@@ -17,6 +17,7 @@ if (isMobile == -1) {
         }
     };
 } else {
+    alert("Is Mobile True")
     var config = {
         type: Phaser.AUTO,
         width: window.innerWidth,
